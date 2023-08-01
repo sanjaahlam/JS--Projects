@@ -37,7 +37,7 @@ function toDoList(task){
      const trashBtnEl = document.createElement('div');
      trashBtnEl.innerHTML = `<i class="fas fa-trash"></i>`;
      liEl.appendChild(trashBtnEl);
-     checkBtnEl.addEventListener('click', ()=>{
+     checkBtnEl.addEventListener('click', () =>{
 
         liEl.classList.toggle("checked");
      });
