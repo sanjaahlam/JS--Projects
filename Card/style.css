@@ -168,3 +168,7 @@ transition: .2s;
 .profile-name h2{
     margin-bottom: 8px;
 }
+.profile-bio{
+    font-size: 18px;
+    font-style: italic;
+}
